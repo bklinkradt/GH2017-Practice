@@ -1,0 +1,92 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{3685F081-8C08-41C7-AC3D-F9FB8EA31856}"
+	ProjectSection(SolutionItems) = preProject
+		Data\01 - Readme.txt = Data\01 - Readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{DBFDE51F-55B6-42C2-A85C-A31CC86BDB35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Simulation", "Simulation", "{25DD306A-4009-49E3-81F9-54BF2E10843F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{9FFB0E00-BAB0-419D-A6E8-8E5948D6D67D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleHash2017", "GoogleHash2017\GoogleHash2017.csproj", "{7EE89B45-1B8B-449E-BABD-E62DC13A26B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleHash2017.Model", "GoogleHash2017.Model\GoogleHash2017.Model.csproj", "{3CA94030-8A54-49CC-B000-56EA88BCABD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleHash2017.Model.Rules", "GoogleHash2017.Model.Rules\GoogleHash2017.Model.Rules.csproj", "{BB292383-13FD-44EC-B588-B66B981223E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleHash2017.Simulator", "GoogleHash2017.Simulation\GoogleHash2017.Simulator.csproj", "{56882519-7B6D-46CB-A908-54DE3E5DD574}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleHash2017.Simulator.Inputs", "GoogleHash2017.Simulator.Input\GoogleHash2017.Simulator.Inputs.csproj", "{121B6791-2ABF-4C30-B01B-72BA955DE076}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleHash2017.Simulator.Outputs", "GoogleHash2017.Simulator.Output\GoogleHash2017.Simulator.Outputs.csproj", "{E5EC499C-6B0F-4825-AA39-E3E093E68760}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleHash2017.Simulator.Optimizations", "GoogleHash2017.Simulator.Optimization\GoogleHash2017.Simulator.Optimizations.csproj", "{501CC4A7-31AF-4D9C-8F3D-5709EA966B31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleHash2017.Simulator.Utilities", "GoogleHash2017.Simulator.Utilities\GoogleHash2017.Simulator.Utilities.csproj", "{1AFBE607-2FE8-4544-8EDA-1C43E727C0AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleHash2017.Tests", "GoogleHash2017.Tests\GoogleHash2017.Tests.csproj", "{3F9986C7-CFAE-4EE7-9B19-A81F5C2E3AED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EE89B45-1B8B-449E-BABD-E62DC13A26B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EE89B45-1B8B-449E-BABD-E62DC13A26B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EE89B45-1B8B-449E-BABD-E62DC13A26B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EE89B45-1B8B-449E-BABD-E62DC13A26B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CA94030-8A54-49CC-B000-56EA88BCABD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CA94030-8A54-49CC-B000-56EA88BCABD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CA94030-8A54-49CC-B000-56EA88BCABD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CA94030-8A54-49CC-B000-56EA88BCABD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB292383-13FD-44EC-B588-B66B981223E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB292383-13FD-44EC-B588-B66B981223E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB292383-13FD-44EC-B588-B66B981223E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB292383-13FD-44EC-B588-B66B981223E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56882519-7B6D-46CB-A908-54DE3E5DD574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56882519-7B6D-46CB-A908-54DE3E5DD574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56882519-7B6D-46CB-A908-54DE3E5DD574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56882519-7B6D-46CB-A908-54DE3E5DD574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{121B6791-2ABF-4C30-B01B-72BA955DE076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{121B6791-2ABF-4C30-B01B-72BA955DE076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{121B6791-2ABF-4C30-B01B-72BA955DE076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{121B6791-2ABF-4C30-B01B-72BA955DE076}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5EC499C-6B0F-4825-AA39-E3E093E68760}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5EC499C-6B0F-4825-AA39-E3E093E68760}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5EC499C-6B0F-4825-AA39-E3E093E68760}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5EC499C-6B0F-4825-AA39-E3E093E68760}.Release|Any CPU.Build.0 = Release|Any CPU
+		{501CC4A7-31AF-4D9C-8F3D-5709EA966B31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{501CC4A7-31AF-4D9C-8F3D-5709EA966B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{501CC4A7-31AF-4D9C-8F3D-5709EA966B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{501CC4A7-31AF-4D9C-8F3D-5709EA966B31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AFBE607-2FE8-4544-8EDA-1C43E727C0AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AFBE607-2FE8-4544-8EDA-1C43E727C0AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AFBE607-2FE8-4544-8EDA-1C43E727C0AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AFBE607-2FE8-4544-8EDA-1C43E727C0AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F9986C7-CFAE-4EE7-9B19-A81F5C2E3AED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F9986C7-CFAE-4EE7-9B19-A81F5C2E3AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F9986C7-CFAE-4EE7-9B19-A81F5C2E3AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F9986C7-CFAE-4EE7-9B19-A81F5C2E3AED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3CA94030-8A54-49CC-B000-56EA88BCABD3} = {DBFDE51F-55B6-42C2-A85C-A31CC86BDB35}
+		{BB292383-13FD-44EC-B588-B66B981223E1} = {DBFDE51F-55B6-42C2-A85C-A31CC86BDB35}
+		{56882519-7B6D-46CB-A908-54DE3E5DD574} = {25DD306A-4009-49E3-81F9-54BF2E10843F}
+		{121B6791-2ABF-4C30-B01B-72BA955DE076} = {25DD306A-4009-49E3-81F9-54BF2E10843F}
+		{E5EC499C-6B0F-4825-AA39-E3E093E68760} = {25DD306A-4009-49E3-81F9-54BF2E10843F}
+		{501CC4A7-31AF-4D9C-8F3D-5709EA966B31} = {25DD306A-4009-49E3-81F9-54BF2E10843F}
+		{1AFBE607-2FE8-4544-8EDA-1C43E727C0AF} = {25DD306A-4009-49E3-81F9-54BF2E10843F}
+		{3F9986C7-CFAE-4EE7-9B19-A81F5C2E3AED} = {9FFB0E00-BAB0-419D-A6E8-8E5948D6D67D}
+	EndGlobalSection
+EndGlobal
+

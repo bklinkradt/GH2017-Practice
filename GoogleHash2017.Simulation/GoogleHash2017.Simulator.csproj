@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{56882519-7B6D-46CB-A908-54DE3E5DD574}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GoogleHash2017.Simulator</RootNamespace>
+    <AssemblyName>GoogleHash2017.Simulator</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Simulation.cs" />
+    <Compile Include="Strategies\IStrategy.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\GoogleHash2017.Model.Rules\GoogleHash2017.Model.Rules.csproj">
+      <Project>{bb292383-13fd-44ec-b588-b66b981223e1}</Project>
+      <Name>GoogleHash2017.Model.Rules</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GoogleHash2017.Model\GoogleHash2017.Model.csproj">
+      <Project>{3ca94030-8a54-49cc-b000-56ea88bcabd3}</Project>
+      <Name>GoogleHash2017.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GoogleHash2017.Simulator.Input\GoogleHash2017.Simulator.Inputs.csproj">
+      <Project>{121b6791-2abf-4c30-b01b-72ba955de076}</Project>
+      <Name>GoogleHash2017.Simulator.Inputs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GoogleHash2017.Simulator.Output\GoogleHash2017.Simulator.Outputs.csproj">
+      <Project>{e5ec499c-6b0f-4825-aa39-e3e093e68760}</Project>
+      <Name>GoogleHash2017.Simulator.Outputs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GoogleHash2017.Simulator.Utilities\GoogleHash2017.Simulator.Utilities.csproj">
+      <Project>{1afbe607-2fe8-4544-8eda-1c43e727c0af}</Project>
+      <Name>GoogleHash2017.Simulator.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GoogleHash2017.Simulator.Optimization\GoogleHash2017.Simulator.Optimizations.csproj">
+      <Project>{501cc4a7-31af-4d9c-8f3d-5709ea966b31}</Project>
+      <Name>GoogleHash2017.Simulator.Optimizations</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
